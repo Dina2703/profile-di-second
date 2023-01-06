@@ -4,9 +4,9 @@ import Navbar from "./Navbar";
 
 function Layout() {
   return (
-    <div>
+    <div className="flex flex-col h-screen justify-between items-center ">
       <Navbar />
-      <main>
+      <main className="overflow-y-auto flex ">
         <Outlet />
       </main>
       <Footer />

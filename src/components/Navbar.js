@@ -1,20 +1,17 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-const logo =
-  "https://see.fontimg.com/api/renderfont4/1G8vj/eyJyIjoiZnMiLCJoIjoxNjYsInciOjIwMDAsImZzIjo4MywiZmdjIjoiIzc4NDA4MyIsImJnYyI6IiM0NTNFM0UiLCJ0IjoxfQ/RGluYXJhIElkcmlzc292YQ/snow-puppets-personal-use-medium.png";
-
 function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <div>
-      <nav className="  flex p-8 bg-neutral-50 text-primary-content text-center justify-between">
-        <div>
-          <NavLink to="/">
-            <img src={logo} alt="Dinara Idrissova" width="300px" />
+    <div className="w-full">
+      <nav className=" flex p-8 text-white text-center justify-between bg-blue-200  w-10/12 ">
+        <div className="">
+          <NavLink to="/" className=" text-3xl" id="logo-font">
+            Dinara Idrissova
           </NavLink>
         </div>
-        <div className="flex text-center bg-blue-300 ">
+        <div className="flex gap-x-2.5 0 text-xs  items-center">
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
           <NavLink to="projects">Projects</NavLink>
