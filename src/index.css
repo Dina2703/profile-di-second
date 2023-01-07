@@ -7,22 +7,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap");
 
 :root {
-  --secondary: #16123f;
+  --secondary: #100e24ef;
 }
 
 body {
-  background-color: #a9c9ff;
-  background-image: linear-gradient(120deg, #abd699 0%, #75c9b7 80%);
+  background-color: rgba(252, 244, 244, 0.7);
+  /* background-image: linear-gradient(120deg, #edffe6 0%, #daf4ef 80%); */
   background-repeat: no-repeat;
   height: 100vh;
   font-family: "Poppins";
 }
 
 * {
-  color: #fff;
+  /* color: var(--secondary); */
   margin: 0;
 }
 
 #logo-font {
   font-family: "Manrope";
+  font-weight: 700;
+}
+
+#navbar a.active {
+  color: rgb(166, 59, 137);
 }
