@@ -4,9 +4,9 @@ function Footer() {
   const year = new Date().getFullYear();
   return (
     <div>
-      <footer className="p-8  text-center sticky bottom-0">
+      <footer className="p-5  text-center sticky bottom-0">
         <div>
-          <p className="text-sm flex flex-col gap-y-2 md:flex-row md:gap-1 justify-center text-slate-800">
+          <p className="text-xs flex flex-col gap-y-2 md:flex-row md:gap-1 justify-center text-slate-800">
             <span>Copyright &copy; {year} Dinara Idrissova. </span>
             <span> All rights reserved.</span>
           </p>
