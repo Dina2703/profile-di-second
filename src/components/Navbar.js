@@ -26,14 +26,14 @@ const navLinks = [
 function Navbar() {
   return (
     <div className="w-full shadow-md flex justify-center">
-      <nav className="max-w-5xl w-full flex flex-col md:flex-row p-6   md:justify-between items-center md:items-end sticky top-0 z-[100]">
+      <nav className="max-w-5xl w-full flex flex-col md:flex-row p-4 md:p-6   md:justify-between items-center md:items-end sticky top-0 z-[100]">
         <div className="">
           <NavLink to="/" className="text-4xl text-slate-600 " id="logo-font">
             Dinara Idrissova
           </NavLink>
         </div>
         <div
-          className="flex gap-x-5 0 text-sm  pt-3  md:pt-0  text-slate-500 font-semibold tracking-wide "
+          className="flex gap-x-5 0 text-sm  pt-2  md:pt-0  text-slate-500 font-semibold tracking-wide "
           id="navbar"
         >
           {navLinks.map((link) => (
