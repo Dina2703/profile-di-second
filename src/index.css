@@ -39,3 +39,6 @@ body {
 .tag {
   font-family: "Freehand", cursive;
 }
+.warm {
+  filter: contrast(1.1) saturate(1.9) sepia(0.7) grayscale(0.3);
+}
