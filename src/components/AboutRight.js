@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutRight() {
   return (
-    <div className="flex flex-1 w-full flex-col gap-5 items-center justify-center pb-4 flex-wrap bg-gray-200 p-2 ">
+    <div className="flex flex-1 w-full flex-col gap-5 items-center justify-center pb-4 flex-wrap  p-2 ">
       <code>
         <h2 className="text-slate-600  font-semibold">About Me</h2>
         <div>
@@ -16,10 +16,9 @@ function AboutRight() {
               appealing websites that deliver the best possible user experience.
             </li>
             <li>
-              I'm positive person, naturally curious, with a strong work ethic,
-              who is always curious and with never-ending enthusiasm for solving
-              problems and hardly working to improve my soft and technical
-              skills.
+              I'm a positive person with a strong work ethic, who is always
+              curious and with never-ending enthusiasm for solving problems and
+              hardly working to improve my soft and technical skills.
             </li>
             <li>
               Completed Front-End Web + Mobile Developer Bootcamp in 2021.
@@ -28,11 +27,10 @@ function AboutRight() {
               find me tinkering with new technologies.
             </li>
             <li>
-              In addition to my coding life, I'm a mom of two wonderful boys and
-              a wife. We love spending time together as a family. There are many
+              In addition to my coding life, I'm a mom of two curious boys and a
+              wife. We love spending time together as a family. There are many
               things that we enjoy doing together, hiking in nature, bike riding
-              is a great way to spend quality time, doing family movie nights
-              and more.
+              , having family movie nights and more.
             </li>
             <li>
               Feel free to take a look at my portfolio to see some of my past
