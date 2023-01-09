@@ -6,6 +6,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Freehand&display=swap");
+
 :root {
   --secondary: #100e24ef;
 }
@@ -34,4 +36,10 @@ body {
   color: rgb(249 115 22);
 }
 
-/* Home page Fade out effect */
+.tag {
+  font-family: "Freehand", cursive;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
