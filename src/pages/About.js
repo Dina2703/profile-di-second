@@ -4,8 +4,8 @@ import AboutRight from "../components/AboutRight";
 
 function About() {
   return (
-    <div className="w-screen px-2">
-      <div className="flex flex-col gap-12 bg-gray-100  mx-24 md:flex-row">
+    <div className="w-screen px-2 ">
+      <div className="flex flex-col gap-2   mx-24 md:flex-row">
         <AboutLeft />
         <AboutRight />
       </div>

@@ -25,7 +25,7 @@ const navLinks = [
 
 function Navbar() {
   return (
-    <div className="w-full shadow-md flex justify-center">
+    <div className="w-full shadow-md  z-100 flex justify-center">
       <nav className="max-w-5xl w-full flex flex-col md:flex-row p-4 md:p-6   md:justify-between items-center md:items-end sticky top-0 z-[100]">
         <div className="">
           <NavLink to="/" className="text-4xl text-slate-600 " id="logo-font">
