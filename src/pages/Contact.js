@@ -1,7 +1,7 @@
 import React from "react";
 
 function Contact() {
-  return <div>Contact page</div>;
+  return <div className="bg-red-100 ">Contact page</div>;
 }
 
 export default Contact;

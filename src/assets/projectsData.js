@@ -1,0 +1,42 @@
+export const itemData = [
+  {
+    img: "/assets/nucamp-site.png",
+    title: "tutoring business website",
+    type: "real website",
+    cols: 2,
+    id: 2,
+    url: "https://www.englishwithanara.com/",
+  },
+  {
+    img: "/assets/dom-coffee.png",
+    title: "responsive coffee-shop template",
+    type: "template",
+    cols: 2,
+    id: 3,
+    url: "https://coffee-shop-dom.netlify.app/",
+  },
+  {
+    img: "/assets/memory-game.png",
+    title: "memory game",
+    type: "game",
+    cols: 2,
+    id: 4,
+    url: "https://memory-game-dina.netlify.app/",
+  },
+  {
+    img: "/assets/travel.png",
+    title: "travel website template",
+    type: "template",
+    cols: 2,
+    id: 5,
+    url: "https://travel-react-template.netlify.app/",
+  },
+  {
+    img: "/assets/book-shelf.png",
+    title: "BookShelf website template ",
+    type: "template",
+    cols: 2,
+    id: 6,
+    url: "https://audio-books-next.vercel.app/",
+  },
+];

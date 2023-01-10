@@ -1,7 +1,6 @@
 import React from "react";
 import AboutLeft from "../components/AboutLeft";
 import AboutRight from "../components/AboutRight";
-import Skills from "../components/Skills";
 
 function About() {
   return (
@@ -10,7 +9,6 @@ function About() {
         <AboutLeft />
         <AboutRight />
       </div>
-      <Skills />
     </div>
   );
 }
