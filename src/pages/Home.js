@@ -1,4 +1,3 @@
-import img from "../assets/img/dinara.png";
 import { FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import HomeImg from "../components/HomeImg";
