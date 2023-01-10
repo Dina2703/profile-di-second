@@ -1,14 +1,16 @@
 import React from "react";
 import AboutLeft from "../components/AboutLeft";
 import AboutRight from "../components/AboutRight";
+import Skills from "../components/Skills";
 
 function About() {
   return (
-    <div className="w-screen px-2 overflow-x-hidden pt-4">
-      <div className="flex flex-col gap-3   mx-4 md:mx-14 lg:mx-24 md:flex-row justify-center items-center">
+    <div className="overflow-x-hidden py-4 max-w-3xl px-2">
+      <div className="flex flex-col gap-3  md:flex-row justify-center items-center">
         <AboutLeft />
         <AboutRight />
       </div>
+      <Skills />
     </div>
   );
 }

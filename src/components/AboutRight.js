@@ -29,8 +29,8 @@ function AboutRight() {
             <li>
               In addition to my coding life, I'm a mom of two curious boys and a
               wife. We love spending time together as a family. There are many
-              things that we enjoy doing together, hiking in nature, bike riding
-              , having family movie nights, and more.
+              things that we enjoy doing together, hiking in nature, bike
+              riding, having family movie nights, and more.
             </li>
             <li>
               Feel free to take a look at my portfolio to see some of my past
