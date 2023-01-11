@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 function Card({ projectData }) {
   console.log(projectData);
   return (
-    <div className="shadow-md  bg-base-100 my-3 rounded-lg p-6 ">
-      <div className="flex justify-around bg-orange-100 items-center ">
-        <div className="text-sm">
+    <div className="shadow-md  my-3 rounded-lg p-4 ">
+      <div className="flex  bg-orange-100 items-center justify-between ">
+        <div className="text-sm ">
           <div className="uppercase">{projectData.title}</div>
           <div>{projectData.info}</div>
-          <div>technology bar</div>
         </div>
-        <div className="w-1/3 p-5">
+        <div className=" p-5 bg-red-300 ">
           <img src={projectData.img} alt={projectData.title} />
         </div>
       </div>

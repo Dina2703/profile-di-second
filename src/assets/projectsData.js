@@ -1,6 +1,6 @@
 export const itemData = [
   {
-    img: "./assets/img/anara-eng.jpeg",
+    img: "./img/anara-eng.jpeg",
     title: "A tutoring bussines website",
     type: "website",
     info: "The website built using React.js and Tailwind CSS",
@@ -8,7 +8,7 @@ export const itemData = [
     url: "https://www.englishwithanara.com/",
   },
   {
-    img: "./assets/img/dom-coffee.png",
+    img: "./img/dom-coffee.png",
     title: "responsive coffee-shop template",
     type: "template",
     info: "The website built using React.js to practice HTML5 and CSS3.",
@@ -16,7 +16,7 @@ export const itemData = [
     url: "https://coffee-shop-dom.netlify.app/",
   },
   {
-    img: "./assets/img/memory-game.png",
+    img: "./img/memory-game.png",
     title: "memory game",
     type: "game",
     info: 2,
@@ -24,7 +24,7 @@ export const itemData = [
     url: "https://memory-game-dina.netlify.app/",
   },
   {
-    img: "./assets/img/travel.png",
+    img: "./img/travel.png",
     title: "travel website template",
     type: "template",
     info: 2,
@@ -32,7 +32,7 @@ export const itemData = [
     url: "https://travel-react-template.netlify.app/",
   },
   {
-    img: "./assets/img/book-shelf.png",
+    img: "./img/book-shelf.png",
     title: "BookShelf website template ",
     type: "template",
     info: 2,

@@ -25,17 +25,17 @@ const navLinks = [
 
 function Navbar() {
   return (
-    <div className="w-full shadow-md  flex justify-center items-center sticky top-0 z-100 bg-neutral-100 z-10 ">
-      <nav className="w-full max-w-4xl  flex flex-col md:flex-row p-4 md:p-6   md:justify-between items-center md:items-end ">
+    <div className="w-full shadow-md  flex justify-center items-center sticky top-0 z-100 bg-neutral-100 ">
+      <nav className="w-full max-w-4xl  flex flex-col md:flex-row p-4   md:justify-between items-center md:items-end ">
         <NavLink
           to="/"
-          className="text-4xl text-slate-600 hidden md:block "
+          className="text-3xl text-slate-600 hidden md:block "
           id="logo-font"
         >
           Dinara Idrissova
         </NavLink>
         <div
-          className="flex gap-x-5 0 text-sm  md:pt-0  text-slate-500 font-semibold tracking-wide "
+          className="flex gap-x-5 0 text-xs  md:pt-0  text-slate-500 font-semibold tracking-wide "
           id="navbar"
         >
           {navLinks.map((link) => (
