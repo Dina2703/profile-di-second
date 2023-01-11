@@ -25,13 +25,13 @@ function Home() {
       </div>
       <div className="flex md:flex-col flex-row justify-center items-center gap-2  p-2">
         <Link to={"/projects"}>
-          <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 h-10 md:h-12 md:w-60 flex justify-center items-center gap-2 shadow-md shadow-gray-400">
+          <button class="bg-orange-500 hover:bg-orange-600 transition ease-in-out delay-50 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 h-10 md:h-12 md:w-60 flex justify-center items-center gap-2 shadow-sm shadow-gray-400">
             <pre className="w-36 flex justify-start">my portfolio</pre>{" "}
             <FaChevronRight />
           </button>
         </Link>
         <Link to={"/"}>
-          <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 md:w-60 h-10 md:h-12 flex justify-center items-center gap-2 shadow-md shadow-gray-400">
+          <button class="bg-orange-500 hover:bg-orange-600 transition ease-in-out delay-50 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 md:w-60 h-10 md:h-12 flex justify-center items-center gap-2 shadow-sm shadow-gray-400">
             <pre className="w-36 flex justify-start"> my resume</pre>{" "}
             <FaChevronRight />
           </button>

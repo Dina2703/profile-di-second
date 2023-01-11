@@ -6,7 +6,7 @@ function Layout() {
   return (
     <div className="flex flex-col  justify-between items-center  ">
       <Navbar />
-      <main className="mt-4 md:mt-8 ">
+      <main className="mt-4  ">
         <Outlet />
       </main>
       <Footer />

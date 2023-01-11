@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 
 const navLinks = [
   {
@@ -26,6 +27,9 @@ const navLinks = [
 function Navbar() {
   return (
     <div className="w-full shadow-md  flex justify-center items-center sticky top-0 z-100 bg-neutral-100 ">
+      <div className="absolute right-4 top-2 border rounded-full p-1 cursor-pointer hover:scale-105 shadow-md">
+        <BsFillMoonStarsFill className="text-slate-600 text-sm" />
+      </div>
       <nav className="w-full max-w-4xl  flex flex-col md:flex-row p-4   md:justify-between items-center md:items-end ">
         <NavLink
           to="/"
