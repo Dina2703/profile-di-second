@@ -1,10 +1,13 @@
 import { FaChevronRight } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillCodepenCircle } from "react-icons/ai";
+
 import { Link } from "react-router-dom";
 import HomeImg from "../components/HomeImg";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-y-2 md:gap-y-12 mt-16">
+    <div className="flex flex-col gap-y-2  mt-2 md:mt-6">
       <div className="flex flex-col-reverse items-center md:flex-row  overflow-hidden justify-center  md:gap-10">
         <div className=" flex flex-col justify-end gap-y-1 font-semibold text-gray-600 text-lg md:text-1xl lg:text-3xl p-3 md:p-6 ">
           <p className="text-gray-400 text-xs md:text-sm italic mb-1 md:mb-3 tag">{`<div>`}</p>
@@ -23,17 +26,20 @@ function Home() {
 
         <HomeImg />
       </div>
-      <div className="flex md:flex-col flex-row justify-center items-center gap-2  p-2 mt-auto">
+      <div className="text-3xl flex justify-center gap-6 text-gray-600 mb-6 cursor-pointer ">
+        <AiFillCodepenCircle />
+        <AiFillGithub />
+      </div>
+      <div className="flex  flex-col md:flex-row  justify-center items-center gap-3  p-2 ">
         <Link to={"/projects"}>
-          <button class="bg-orange-500 hover:bg-orange-600 transition ease-in-out delay-50 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 h-10 md:h-12 md:w-60 flex justify-center items-center gap-2 shadow-sm shadow-gray-400">
-            <pre className="w-36 flex justify-start">my portfolio</pre>{" "}
+          <button class="w-40 md:w-52 rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
+            <pre>my portfolio</pre>
             <FaChevronRight />
           </button>
         </Link>
         <Link to={"/"}>
-          <button class="bg-orange-500 hover:bg-orange-600 transition ease-in-out delay-50 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 md:w-60 h-10 md:h-12 flex justify-center items-center gap-2 shadow-sm shadow-gray-400">
-            <pre className="w-36 flex justify-start"> my resume</pre>{" "}
-            <FaChevronRight />
+          <button class=" w-40 md:w-52  rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
+            <pre> my resume</pre> <FaChevronRight />
           </button>
         </Link>
       </div>
