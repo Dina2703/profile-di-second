@@ -4,8 +4,8 @@ import HomeImg from "../components/HomeImg";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-y-2 md:gap-y-12 ">
-      <div className="flex  flex-col-reverse items-center md:flex-row w-[80vw] overflow-hidden justify-center  md:gap-10">
+    <div className="flex flex-col gap-y-2 md:gap-y-12 mt-16">
+      <div className="flex flex-col-reverse items-center md:flex-row  overflow-hidden justify-center  md:gap-10">
         <div className=" flex flex-col justify-end gap-y-1 font-semibold text-gray-600 text-lg md:text-1xl lg:text-3xl p-3 md:p-6 ">
           <p className="text-gray-400 text-xs md:text-sm italic mb-1 md:mb-3 tag">{`<div>`}</p>
           <pre className="">
@@ -23,7 +23,7 @@ function Home() {
 
         <HomeImg />
       </div>
-      <div className="flex md:flex-col flex-row justify-center items-center gap-2  p-2">
+      <div className="flex md:flex-col flex-row justify-center items-center gap-2  p-2 mt-auto">
         <Link to={"/projects"}>
           <button class="bg-orange-500 hover:bg-orange-600 transition ease-in-out delay-50 text-white font-bold py-2 px-4 rounded-full text-sm md:text-lg w-40 h-10 md:h-12 md:w-60 flex justify-center items-center gap-2 shadow-sm shadow-gray-400">
             <pre className="w-36 flex justify-start">my portfolio</pre>{" "}
