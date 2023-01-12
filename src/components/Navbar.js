@@ -18,8 +18,8 @@ const navLinks = [
     name: "Projects",
   },
   {
-    id: 4,
     navLink: "/Contact",
+    id: 4,
     name: "Contact",
   },
 ];
@@ -27,8 +27,8 @@ const navLinks = [
 function Navbar() {
   return (
     <div className="w-full shadow-md  flex justify-center items-center sticky top-0 z-100 bg-neutral-100 ">
-      <div className="absolute right-4 top-2 border rounded-full p-1 cursor-pointer hover:scale-105 shadow-md">
-        <BsFillMoonStarsFill className="text-slate-600 text-sm" />
+      <div className="absolute right-4 top-2 border rounded-full p-1 cursor-pointer hover:scale-125 hover:border-gray-500  transition ease-in-out delay-50">
+        <BsFillMoonStarsFill className="text-gray-600 text-sm " />
       </div>
       <nav className="w-full max-w-4xl  flex flex-col md:flex-row p-4   md:justify-between items-center md:items-end ">
         <NavLink
@@ -46,7 +46,7 @@ function Navbar() {
             <NavLink
               to={link.navLink}
               key={link.id}
-              className="hover:text-gray-500 "
+              className="hover:text-gray-800 "
             >
               {link.name}
             </NavLink>
