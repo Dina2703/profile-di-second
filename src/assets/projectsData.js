@@ -1,7 +1,7 @@
 export const itemData = [
   {
     img: "./img/anara-eng.jpeg",
-    title: "Tutoring bussines",
+    title: "Tutoring business",
     type: "website",
     info: "React, Tailwind CSS",
     id: 1,
