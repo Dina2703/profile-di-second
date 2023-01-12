@@ -1,9 +1,7 @@
 import { FaChevronRight } from "react-icons/fa";
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillCodepenCircle } from "react-icons/ai";
-
 import { Link } from "react-router-dom";
 import HomeImg from "../components/HomeImg";
+import resume from "../assets/dinara_idrissova_resume.pdf";
 
 function Home() {
   return (
@@ -26,10 +24,7 @@ function Home() {
 
         <HomeImg />
       </div>
-      <div className="text-3xl flex justify-center gap-6 text-gray-600 mb-6 cursor-pointer ">
-        <AiFillCodepenCircle />
-        <AiFillGithub />
-      </div>
+
       <div className="flex  flex-col md:flex-row  justify-center items-center gap-3  p-2 ">
         <Link to={"/projects"}>
           <button class="w-40 md:w-52 rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
@@ -37,11 +32,11 @@ function Home() {
             <FaChevronRight />
           </button>
         </Link>
-        <Link to={"/"}>
+        <a href={resume}>
           <button class=" w-40 md:w-52  rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
             <pre> my resume</pre> <FaChevronRight />
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );

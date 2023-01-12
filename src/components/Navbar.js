@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 
 const navLinks = [
   {
@@ -14,8 +15,8 @@ const navLinks = [
   },
   {
     id: 3,
-    navLink: "/projects",
-    name: "Projects",
+    navLink: "/portfolio",
+    name: "Portfolio",
   },
   {
     navLink: "/Contact",
@@ -27,9 +28,21 @@ const navLinks = [
 function Navbar() {
   return (
     <div className="w-full shadow-md  flex justify-center items-center sticky top-0 z-100 bg-neutral-100 ">
-      <div className="absolute right-4 top-2 border rounded-full p-1 cursor-pointer hover:scale-125 hover:border-gray-500  transition ease-in-out delay-50">
-        <BsFillMoonStarsFill className="text-gray-600 text-sm " />
+      <div className="absolute right-2  lg:right-6 top-2 flex items-center w-16 justify-between flex-row-reverse">
+        <div className=" border rounded-full p-1 cursor-pointer hover:scale-125 hover:border-gray-500  transition ease-in-out delay-50">
+          <BsFillMoonStarsFill className="text-gray-600 text-sm " />
+        </div>
+        <div className=" border rounded-full p-1 cursor-pointer hover:scale-125 hover:border-gray-500  transition ease-in-out delay-50">
+          <a
+            href="https://github.com/Dina2703"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillGithub className="text-gray-600 text-md " />
+          </a>
+        </div>
       </div>
+
       <nav className="w-full max-w-4xl  flex flex-col md:flex-row p-4   md:justify-between items-center md:items-end ">
         <NavLink
           to="/"

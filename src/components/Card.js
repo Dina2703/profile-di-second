@@ -2,7 +2,7 @@ function Card({ projectData }) {
   console.log(projectData);
   return (
     <div className="lg:w-1/2 lg:p-3">
-      <div className="shadow-md  my-3 rounded-md ">
+      <div className="shadow-md  my-3 rounded-md hover:scale-105 transition  ease-in-out">
         <div className="flex  p-2  items-center flex-row-reverse ">
           <div className=" w-32  text-xs flex flex-col  text-gray-600 text-start gap-3">
             <h3 className="font-semibold inline">
