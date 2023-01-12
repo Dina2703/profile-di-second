@@ -26,13 +26,13 @@ function Home() {
       </div>
 
       <div className="flex  flex-col md:flex-row  justify-center items-center gap-3  p-2 ">
-        <Link to={"/projects"}>
+        <Link to={"/portfolio"}>
           <button class="w-40 md:w-52 rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
             <pre>my portfolio</pre>
             <FaChevronRight />
           </button>
         </Link>
-        <a href={resume}>
+        <a href={resume} target="_blank" rel="noreferrer">
           <button class=" w-40 md:w-52  rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
             <pre> my resume</pre> <FaChevronRight />
           </button>

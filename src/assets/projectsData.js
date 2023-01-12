@@ -1,8 +1,16 @@
 export const itemData = [
   {
     img: "./img/anara-eng.jpeg",
-    title: "Tutoring business",
-    type: "website",
+    title: "Tutoring Business",
+    type: "Website",
+    info: "React, Tailwind CSS",
+    id: 0,
+    url: "https://dinaraidrissova.com/",
+  },
+  {
+    img: "./img/anara-eng.jpeg",
+    title: "Tutoring Business",
+    type: "Website",
     info: "React, Tailwind CSS",
     id: 1,
     url: "https://www.englishwithanara.com/",
@@ -10,8 +18,8 @@ export const itemData = [
   {
     img: "./img/dom-coffee.png",
     title: "Responsive coffee-shop ",
-    type: "template",
-    info: "HTML5, CSS3, JS",
+    type: "Template",
+    info: "HTML5, JS, CSS3, Bootstrap ",
     id: 2,
     url: "https://coffee-shop-dom.netlify.app/",
   },
