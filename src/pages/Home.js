@@ -1,15 +1,16 @@
 import { FaChevronRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import HomeImg from "../components/HomeImg";
-import resume from "../assets/dinara_idrissova_resume.pdf";
+import resume from "../assets/Dinara_Idrissova_Resume_upd.pdf";
+import Button from "../components/Button";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-y-2  mt-2 md:mt-6">
-      <div className="flex flex-col-reverse items-center md:flex-row  overflow-hidden justify-center  md:gap-10">
-        <div className=" flex flex-col justify-end gap-y-1 font-semibold text-gray-600 text-lg md:text-1xl lg:text-3xl p-3 md:p-6 ">
-          <p className="text-gray-400 text-xs md:text-sm italic mb-1 md:mb-3 tag">{`<div>`}</p>
-          <pre className="">
+    <div className="flex flex-col justify-around h-[calc(100vh-200px)]">
+      <div className="flex flex-col-reverse items-center md:flex-row  justify-center  md:gap-0">
+        <div className=" flex flex-col justify-end gap-y-1 font-semibold   text-lg md:text-1xl lg:text-3xl p-3 md:p-6 ">
+          <p className="text-gray-400  text-xs md:text-sm italic mb-1 md:mb-3 tag">{`<div>`}</p>
+          <pre>
             <p>Hello!</p>
 
             <p>
@@ -27,15 +28,15 @@ function Home() {
 
       <div className="flex  flex-col md:flex-row  justify-center items-center gap-3  p-2 ">
         <Link to={"/portfolio"}>
-          <button class="w-40 md:w-52 rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
+          <Button>
             <pre>my portfolio</pre>
             <FaChevronRight />
-          </button>
+          </Button>
         </Link>
         <a href={resume} target="_blank" rel="noreferrer">
-          <button class=" w-40 md:w-52  rounded-lg px-4 py-2 border-2 border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-gray-100 duration-300 text-xs md:text-sm flex items-center justify-center gap-3">
+          <Button>
             <pre> my resume</pre> <FaChevronRight />
-          </button>
+          </Button>
         </a>
       </div>
     </div>

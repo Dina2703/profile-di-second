@@ -4,9 +4,9 @@ function AboutRight() {
   return (
     <div className="flex flex-1 w-full flex-col gap-5 items-center justify-center pb-4 flex-wrap  p-2 ">
       <code>
-        <h2 className="text-slate-600  font-semibold">About Me</h2>
+        <h2 className=" font-semibold">About Me</h2>
         <div>
-          <ul className=" md:text-xs text-[14px] flex flex-col gap-1.5 text-slate-600 ">
+          <ul className=" md:text-xs text-[14px] flex flex-col gap-1.5  ">
             <li>
               My name is Dinara and I am front-end developer, based in Georgia,
               US.
