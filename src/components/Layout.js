@@ -6,7 +6,7 @@ function Layout() {
   return (
     <div className="flex flex-col  justify-between items-center transition-all delay-100 dark:bg-slate-800 text-gray-600 dark:text-gray-100">
       <Navbar />
-      <main className="mt-4  h-[calc(100vh-120px)] ">
+      <main className="mt-4  h-[calc(100vh-120px)] overflow-auto">
         <Outlet />
       </main>
       <Footer />
