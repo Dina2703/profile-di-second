@@ -8,12 +8,12 @@ export const itemData = [
     url: "https://dinaraidrissova.com/",
   },
   {
-    img: "./img/anara-eng.jpeg",
-    title: "Tutoring Business",
-    type: "Website",
-    info: "React, Tailwind CSS",
+    img: "./img/print.png",
+    title: "Printing Services Business",
+    type: "Template",
+    info: "Next JS, MUI Material",
     id: 1,
-    url: "https://www.englishwithanara.com/",
+    url: "https://print-website.vercel.app/",
   },
   {
     img: "./img/dom-coffee.png",

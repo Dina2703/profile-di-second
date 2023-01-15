@@ -8,7 +8,7 @@ function AboutRight() {
         <div>
           <ul className=" md:text-xs text-[14px] flex flex-col gap-1.5  ">
             <li>
-              My name is Dinara and I am front-end developer, based in Georgia,
+              My name is Dinara and I'm a front-end developer, based in Georgia,
               US.
             </li>
             <li>

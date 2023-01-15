@@ -21,7 +21,7 @@ function Card({ projectData }) {
             <img
               src={projectData.img}
               alt={projectData.title}
-              className="object-fill w-36 md:w-44 lg:w-52 h-24 md:h-32 lg:h-40  rounded-sm "
+              className="object-fill w-36 md:w-44 lg:w-52 h-24 md:h-32 lg:h-40  rounded-sm border border-gray-100"
             />
           </div>
         </div>
